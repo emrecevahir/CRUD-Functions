@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # CRUD-Functions
 =======
 
@@ -24,9 +24,10 @@ http://localhost:1907/personel/allpersonel/
 
 
 
-Var Olan Bir Kaydı Silmek İçin :
+Var Olan Bir Kaydı Güncellemek İçin :
 
-Database veya kayıt sırasında veya tüm kaydı sorgulayarak ulaştığımız kaydın id sini
+Database veya kayıt sırasında veya tüm kaydı sorgulayarak ulaştığımız kaydın id sini kullanarak update işlemi yapabiliriz
+
 [PUT]
 http://localhost:1907/personel/personel/
 
@@ -36,3 +37,15 @@ http://localhost:1907/personel/personel/
 }
 
 Bu örnekte id si "6663271b9097866810d2ea0c" olan kayıdın name i deneme olarak değiştirilmiştir.
+
+
+Bir kayıdı silmek için :
+
+[DELETE]
+http://localhost:1907/personel/personel/
+
+İd sini bildiğimiz bir kaydı silmek için 
+{
+    "_id":"6663271b9097866810d2ea0c",
+    "name" :"deneme"
+}
