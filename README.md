@@ -36,4 +36,3 @@ http://localhost:1907/personel/personel/
 }
 
 Bu örnekte id si "6663271b9097866810d2ea0c" olan kayıdın name i deneme olarak değiştirilmiştir.
->>>>>>> 0bc85aa (CRUD işlemleri için örnek backend)
